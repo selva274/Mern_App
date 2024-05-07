@@ -18,7 +18,7 @@ const errorLink = onError(({ graphqlErrors, networkError }) => {
   }
 });
 
-let URI=process.env.URI||"http://localhost:3001/graphql";
+let URI=process.env.URI;
 
 const link = from([
   errorLink,
