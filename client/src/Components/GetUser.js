@@ -13,7 +13,7 @@ function GetUsers() {
 
   return (
     <div>
-      {" "}
+      <h1 style={{textAlign:"center",color:"red"}}>Random User API </h1>
       {users.map((val) => {
         return <h1> {val.firstName}</h1>;
       })}
