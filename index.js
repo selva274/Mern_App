@@ -7,7 +7,7 @@ const {
   GraphQLList,
 } = graphql;
 const userData = require("./MOCK_DATA.json");
-
+///Hello World
 const UserType = require("./UserType");
 
 const RootQuery = new GraphQLObjectType({
